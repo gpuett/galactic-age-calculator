@@ -27,7 +27,7 @@ describe('Age', function() {
 
   it('should return user age in Mars years', function() {
     let age = new Age(26);
-    expect(age.mars()).toEqual(48.88);
+    expect(age.mars()).toBeCloseTo(48.88);
   })
 
 });
