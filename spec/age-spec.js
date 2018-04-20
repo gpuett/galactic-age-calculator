@@ -53,7 +53,7 @@ describe('Age', function() {
     expect(Math.abs(average.mercury() - age.mercury())).toBeCloseTo(2.4);
     expect(Math.abs(average.venus() - age.venus())).toBeCloseTo(6.2);
     expect(Math.abs(average.mars() - age.mars())).toBeCloseTo(18.8);
-    expect((average.jupiter() - age.jupiter())).toBeCloseTo(118.6);
+    expect(Math.abs(average.jupiter() - age.jupiter())).toBeCloseTo(118.6);
 
   })
 
