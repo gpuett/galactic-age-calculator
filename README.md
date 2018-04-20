@@ -12,7 +12,7 @@ A webpage created with Javascript where a user can submit their age and see how 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 |**Program will convert person's age into seconds**| "26" | "819936000 seconds" |
-|**Program will take two dates and determine the difference, in seconds, between the two**| "8/16/91 - 4/20/18" | "841881600 seconds" |
+|**Program will take input date and determine the difference, in seconds, between then and current date**| "8/16/91 - 4/20/18" | "841881600 seconds" |
 |**Program will return user age in Mercury years**| "26" | "6.24" |
 |**Program will return user age in Venus years**| "26" | "16.12" |
 |**Program will return user age in Mars years**| "26" | "48.88" |
