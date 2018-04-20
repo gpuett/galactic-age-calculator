@@ -34,6 +34,6 @@ A webpage created with Javascript where a user can submit their age and see how 
 * Jasmine/Karma testing framework and runner
 
 ### License
-*{MIT License}*
+*This program is licensed under the MIT License*
 
-Copyright (c) 2018 **{Garnett Puett}**
+Copyright (c) 2018 **Garnett Puett**
