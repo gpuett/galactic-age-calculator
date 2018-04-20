@@ -12,7 +12,7 @@ describe('Age', function() {
     let today = new Date("4/20/2018");
     let age = Math.abs(today.getTime() - birth.getTime());
     let ageSec = Math.ceil(age / 1000);
-    expect(ageSec).toEqual(8.41915326e+8);
+    expect(ageSec).toEqual(841881600);
   })
 
 });

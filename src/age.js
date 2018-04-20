@@ -6,6 +6,7 @@ class Age {
     return this.years * 365 * 24 * 60 * 60;
   }
 
+
 }
 
 export { Age };
