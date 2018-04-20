@@ -15,4 +15,9 @@ describe('Age', function() {
     expect(ageSec).toEqual(841881600);
   })
 
+  it('should return user age in Mercury years', function() {
+    let age = new Age(26);
+    expect(age.mercury()).toEqual(6.24);
+  })
+
 });
