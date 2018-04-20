@@ -5,7 +5,9 @@ class Age {
   inSeconds() {
     return this.years * 365 * 24 * 60 * 60;
   }
-
+  mercury() {
+    return this.years * .24;
+  }
 
 }
 
