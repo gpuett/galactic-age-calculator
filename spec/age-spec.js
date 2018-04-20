@@ -35,4 +35,10 @@ describe('Age', function() {
     expect(age.jupiter()).toEqual(308.36)
   })
 
+  it('should tell user how many years it has left to live on earth', function() {
+    let age = new Age(26);
+    let average;
+    expect(average - age).toEqual(52)
+  })
+
 });
