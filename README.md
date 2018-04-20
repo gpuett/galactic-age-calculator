@@ -27,7 +27,7 @@ A webpage created with Javascript where a user can submit their age and see how 
 4. Use "npm run start" to load the page in Chrome.
 
 ## Known Bugs
-* No known bugs.
+* Exact age result displays before the button is clicked.
 
 ## Technologies Used
 * Javascript
