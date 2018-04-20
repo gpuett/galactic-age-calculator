@@ -23,7 +23,8 @@ A webpage created with Javascript where a user can submit their age and see how 
 ## Setup
 1. Clone this repository.
 2. Navigate into this repository through terminal and use "npm install" to install webpack plugins.
-3. Run "npm test" to run karma/jasmine testing on spec tests
+3. Run "npm test" to run karma/jasmine testing on spec tests.
+4. Use "npm run start" to load the page in Chrome.
 
 ## Known Bugs
 * No known bugs.
