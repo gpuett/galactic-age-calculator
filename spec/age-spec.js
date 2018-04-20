@@ -2,6 +2,8 @@ import { Age } from './../src/age.js'
 
 describe('Age', function() {
 
+  const average = new Age(78);
+
   it('should convert input age into seconds', function() {
     let age = new Age(26);
     expect(age.inSeconds()).toEqual(819936000)
@@ -37,12 +39,21 @@ describe('Age', function() {
 
   it('should tell user how many years it has left to live on each planet', function() {
     let age = new Age(26);
-    let average = new Age(78);
     expect(average.years - age.years).toEqual(52);
     expect(average.mercury() - age.mercury()).toBeCloseTo(12.48);
     expect(average.venus() - age.venus()).toBeCloseTo(32.24);
     expect(average.mars() - age.mars()).toBeCloseTo(97.76);
     expect(average.jupiter() - age.jupiter()).toBeCloseTo(616.72);
+
+  })
+
+  it('should tell user how many years they have lived past average life expectancy', function() {
+    let age = new Age(88);
+    expect(Math.abs(average.years - age.years)).toEqual(10);
+    expect(Math.abs(average.mercury() - age.mercury())).toBeCloseTo(2.4);
+    expect(Math.abs(average.venus() - age.venus())).toBeCloseTo(6.2);
+    expect(Math.abs(average.mars() - age.mars())).toBeCloseTo(18.8);
+    expect((average.jupiter() - age.jupiter())).toBeCloseTo(118.6);
 
   })
 
