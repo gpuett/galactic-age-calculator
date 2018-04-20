@@ -35,10 +35,16 @@ describe('Age', function() {
     expect(age.jupiter()).toEqual(308.36)
   })
 
-  it('should tell user how many years it has left to live on earth', function() {
+  it('should tell user how many years it has left to live on each planet', function() {
     let age = new Age(26);
     let average = new Age(78);
-    expect(average.years - age.years).toEqual(52)
+    expect(average.years - age.years).toEqual(52);
+    expect(average.mercury() - age.mercury()).toBeCloseTo(12.48);
+    expect(average.venus() - age.venus()).toBeCloseTo(32.24);
+    expect(average.mars() - age.mars()).toBeCloseTo(97.76);
+    expect(average.jupiter() - age.jupiter()).toBeCloseTo(616.72);
+
   })
+
 
 });
