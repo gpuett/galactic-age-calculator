@@ -18,7 +18,7 @@ A webpage created with Javascript where a user can submit their age and see how 
 |**Program will return user age in Mars years**| "26" | "48.88" |
 |**Program will return user age in Jupiter years**| "26" | "308.36" |
 |**Program will tell user how many years they have left to live on each planet**| "28" | "50, 12, 31, 94, 593" |
-|**Program will tell user how many years they have lived past the average life expectancy if they have already**| "88" | "10, 2.4, 6.2, 18.8, 118.6" |
+|**Program will tell user how many years they have lived past the average life expectancy if they are above-average**| "88" | "10, 2.4, 6.2, 18.8, 118.6" |
 
 ## Setup
 1. Clone this repository.
