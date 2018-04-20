@@ -37,8 +37,8 @@ describe('Age', function() {
 
   it('should tell user how many years it has left to live on earth', function() {
     let age = new Age(26);
-    let average;
-    expect(average - age).toEqual(52)
+    let average = new Age(78);
+    expect(average.years - age.years).toEqual(52)
   })
 
 });
