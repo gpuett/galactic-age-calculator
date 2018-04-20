@@ -30,4 +30,9 @@ describe('Age', function() {
     expect(age.mars()).toBeCloseTo(48.88);
   })
 
+  it('should return user age in Jupiter years', function() {
+    let age = new Age(26);
+    expect(age.jupiter()).toEqual(308.36)
+  })
+
 });
