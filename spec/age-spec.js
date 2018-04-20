@@ -20,4 +20,9 @@ describe('Age', function() {
     expect(age.mercury()).toEqual(6.24);
   })
 
+  it('should return user age in Venus years', function() {
+    let age = new Age(26);
+    expect(age.venus()).toEqual(15.5);
+  })
+
 });
