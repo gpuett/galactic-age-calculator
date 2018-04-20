@@ -16,3 +16,12 @@ h1 {
   font-family: monospace;
   font-weight: bolder;
 }
+.calculator {
+  min-height: 250px;
+}
+.exact {
+  min-height: 200px;
+}
+.btn {
+  margin: 5px;
+}

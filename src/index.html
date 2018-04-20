@@ -6,28 +6,50 @@
   <body>
     <div class="container">
       <h1>Super Galactic Age Calculator</h1>
-      <form id="calculator">
-        <label for="age">Enter your age:</label>
-        <input type="text" id="age">
-        <button type="button" class="btn btn-danger" id="seconds">Age in Seconds</button>
-        <button type="button" class="btn btn-info" id="mercury">Age on Mercury</button>
-        <button type="button" class="btn btn-warning" id="venus">Age on Mercury</button>
-        <button type="button" class="btn btn-success" id="mars">Age on Mars</button>
-        <button type="button" class="btn btn-primary" id="jupiter">Age on Jupiter</button>
-      </form>
-      <div id="output">
-        <p id="outputSeconds"></p>
-        <p id="outputMercury"></p>
-        <p id="outputVenus"></p>
-        <p id="outputMars"></p>
-        <p id="outputJupiter"></p>
+      <div class="calculator">
+        <form id="calculator">
+          <div class="row">
+            <div class="col col-md">
+              <label for="age">Enter your age:</label>
+              <input type="text" id="age">
+              <button type="button" class="btn btn-danger" id="seconds">Age in Seconds</button>
+              <div id="output">
+                <p id="outputSeconds"></p>
+                <p id="outputPlanet"></p>
+                <p id="outputExpectancy"></p>
+              </div>
+            </div>
+            <div class="col col-md">
+              <div class="row">
+                <button type="button" class="btn btn-info" id="mercury">Age on Mercury</button>
+                <button type="button" class="btn btn-warning" id="venus">Age on Venus</button>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-success" id="mars">Age on Mars</button>
+                <button type="button" class="btn btn-primary" id="jupiter">Age on Jupiter</button>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-danger" id="earthExpec">Earth Years Left</button>
+                <button type="button" class="btn btn-info" id="mercuryExpec">Mercury Years Left</button>
+                <button type="button" class="btn btn-warning" id="venusExpec">Venus Years Left</button>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-success" id="marsExpec">Mars Years Left</button>
+                <button type="button" class="btn btn-primary" id="jupiterExpec">Jupiter Years Left</button>
+
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
-      <form id="ageDiff">
-        <label for="age">Enter your birthdate:</label>
-        <input type="text" id="birthdate">
-        <button type="button" class="btn btn-danger">Get exact age</button>
-      </form>
-      <p id="exactAge"></p>
+      <div class="exact">
+        <form id="ageDiff">
+          <label for="age">Enter your birthdate:</label>
+          <input type="text" id="birthdate">
+          <button type="button" class="btn btn-danger">Get exact age</button>
+        </form>
+        <p id="exactAge"></p>
+      </div>
     </div>
   </body>
 </html>
