@@ -38,55 +38,55 @@ $(document).ready(function() {
     let age = new Age($("#age").val());
     let yearsLeft = (average.years - age.years);
     if (yearsLeft > 0) {
-      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Earth years left to live.`)
+      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Earth years left to live.`);
     } else if (yearsLeft === 0) {
-      $("#outputExpectancy").text(`Your time is up!`)
+      $("#outputExpectancy").text(`Your time is up!`);
     } else {
-      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Earth years longer than the average.`)
+      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Earth years longer than the average.`);
     }
   });
   $("#mercuryExpec").click(function() {
     let age = new Age($("#age").val());
     let yearsLeft = Math.ceil(average.mercury() - age.mercury());
     if (yearsLeft > 0) {
-      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Mercury years left to live.`)
+      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Mercury years left to live.`);
     } else if (yearsLeft === 0) {
-      $("#outputExpectancy").text(`Your time is up!`)
+      $("#outputExpectancy").text(`Your time is up!`);
     } else {
-      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Mercury years longer than the average.`)
+      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Mercury years longer than the average.`);
     }
   });
   $("#venusExpec").click(function() {
     let age = new Age($("#age").val());
     let yearsLeft = Math.ceil(average.venus() - age.venus());
     if (yearsLeft > 0) {
-      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Venus years left to live.`)
+      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Venus years left to live.`);
     } else if (yearsLeft === 0) {
-      $("#outputExpectancy").text(`Your time is up!`)
+      $("#outputExpectancy").text(`Your time is up!`);
     } else {
-      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Venus years longer than the average.`)
+      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Venus years longer than the average.`);
     }
   });
   $("#marsExpec").click(function() {
     let age = new Age($("#age").val());
     let yearsLeft = Math.ceil(average.mars() - age.mars());
     if (yearsLeft > 0) {
-      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Mars years left to live.`)
+      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Mars years left to live.`);
     } else if (yearsLeft === 0) {
-      $("#outputExpectancy").text(`Your time is up!`)
+      $("#outputExpectancy").text(`Your time is up!`);
     } else {
-      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Mars years longer than the average.`)
+      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Mars years longer than the average.`);
     }
   });
   $("#jupiterExpec").click(function() {
     let age = new Age($("#age").val());
     let yearsLeft = Math.ceil(average.jupiter() - age.jupiter());
     if (yearsLeft > 0) {
-      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Jupiter years left to live.`)
+      $("#outputExpectancy").text(`You have an average of ${yearsLeft} Jupiter years left to live.`);
     } else if (yearsLeft === 0) {
-      $("#outputExpectancy").text(`Your time is up!`)
+      $("#outputExpectancy").text(`Your time is up!`);
     } else {
-      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Jupiter years longer than the average.`)
+      $("#outputExpectancy").text(`You have lived ${Math.abs(yearsLeft)} Jupiter years longer than the average.`);
     }
   });
 });
