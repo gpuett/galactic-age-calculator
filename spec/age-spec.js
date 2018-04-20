@@ -25,4 +25,9 @@ describe('Age', function() {
     expect(age.venus()).toEqual(16.12);
   })
 
+  it('should return user age in Mars years', function() {
+    let age = new Age(26);
+    expect(age.mars()).toEqual(48.88);
+  })
+
 });
