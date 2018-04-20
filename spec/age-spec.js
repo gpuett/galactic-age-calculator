@@ -1,8 +1,10 @@
-describe('Date', function() {
+import { Age } from './../src/age.js'
+
+describe('Age', function() {
 
   it('should convert input age into seconds', function() {
-    let age = new Date(91, 7, 16);
-    expect(age.inSeconds()).toEqual(8.419e+8);
+    let age = new Age(26);
+    expect(age.inSeconds()).toEqual(819936000)
   });
 
 });
