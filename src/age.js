@@ -14,6 +14,9 @@ class Age {
   mars() {
     return this.years * 1.88;
   }
+  jupiter() {
+    return this.years * 11.86;
+  }
 }
 
 export { Age };
