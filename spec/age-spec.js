@@ -22,7 +22,7 @@ describe('Age', function() {
 
   it('should return user age in Venus years', function() {
     let age = new Age(26);
-    expect(age.venus()).toEqual(15.5);
+    expect(age.venus()).toEqual(16.12);
   })
 
 });

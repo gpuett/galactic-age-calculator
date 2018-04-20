@@ -8,7 +8,9 @@ class Age {
   mercury() {
     return this.years * .24;
   }
-
+  venus() {
+    return this.years * .62;
+  }
 }
 
 export { Age };
