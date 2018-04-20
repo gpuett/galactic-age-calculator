@@ -25,11 +25,11 @@ $(document).ready(function() {
     let age = new Age($("#age").val());
     $("#outputJupiter").text(`You would be ${age.jupiter()} years old on Jupiter.`);
   });
-  $("#ageDiff").click(function() {
+  $("#ageDiff").click(function(event) {
     let birthdate = new Date($("#birthdate").val());
     let today = new Date();
     let age = Math.abs(today.getTime() - birthdate.getTime());
     let ageSec = Math.ceil(age / 1000);
-    $("#exactAge").text(`Your exact age is ${ageSec} seconds.`)
+    $("#exactAge").text(`Your exact age is ${ageSec} seconds.`);
   });
 });
